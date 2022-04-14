@@ -3,6 +3,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./styles.css";
 
 import Navbar from "../src/NavBar/Navbar";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Reports from "./pages/Reports";
 import AllEmployee from "./pages/AllEmployees/Components/AllEmployee";
 import Admin from "./pages/AdminAttendance/Components/Admin";
 import EmpAttendance from "./pages/EmployeeAttendance/Components/EmpAttendance";
